@@ -1,2 +1,2 @@
-# Lottery
-Ethereum Lottery SmartContract
+# Ethereum
+Solidify Lottery Smart Contract
