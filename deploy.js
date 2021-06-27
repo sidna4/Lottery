@@ -31,7 +31,7 @@ const deploy = async () => {
   //     console.log('Error: ', JSON.stringify(error));
   // }
   const result = await new web3.eth.Contract(abi)
-    .deploy({ data: bytecode, arguments: ["Hi there!"] })
+    .deploy({ data: bytecode })
     .send({
       gas: "1000000",
       from: accounts[0],
